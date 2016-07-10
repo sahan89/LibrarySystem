@@ -7,7 +7,7 @@ Create Sample Library System Application.
 * MySQL
 * Spring
 * Hibernate
-* HTML , CSS & Javascript
+* JSP , CSS & Javascript
 
 ## *Build Project*
 1. Create Database ```CREATE DATABASE test;```
