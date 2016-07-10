@@ -82,7 +82,8 @@
                                 <td><c:out value="${book.group}"/></td>
                                 <td><c:out value="${book.placeOfPub}"/></td>
                                 <td><c:out value="${book.available}"/></td>
-                                <td><a href="updateBooks.html?id=${book.id}">Edit</a> | <a href="deleteBooks.html?id=${book.id}">Delete</a></td>
+                                <td><a href="updateBooks.html?id=${book.id}">Edit</a> | <a
+                                        href="deleteBooks.html?id=${book.id}">Delete</a></td>
                             </tr>
                         </c:forEach>
                         </tbody>
@@ -104,7 +105,7 @@
 
 <!-- Menu Toggle Script -->
 <script>
-    $("#menu-toggle").click(function(e) {
+    $("#menu-toggle").click(function (e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });

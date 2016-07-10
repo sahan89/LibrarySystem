@@ -111,7 +111,7 @@
 
                             <div class="input-group">
                                 <%--<input type="text" name="available" class="form-control" placeholder=""--%>
-                                       <%--required/>--%>
+                                    <%--required/>--%>
                                 <select class="form-control" style="width: 200px" required name="available">
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
